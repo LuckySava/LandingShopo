@@ -1,0 +1,290 @@
+html, body {
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+
+a {
+	text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	position: 0;
+}
+
+.all {
+	padding: 0 151;
+}
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+
+/*	border-left: 1px solid green;
+	border-right: 1px solid green;*/
+}
+
+/*Header*/
+
+.header {
+	height: 806px;
+	background-color: #eff0f2;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	margin-top: 64px;
+}
+
+.logo:hover img {
+	filter: grayscale(100%);
+	transition: 0.5s;
+}
+
+.hamburger {
+	width: 40px;
+	position: absolute;
+	right: 0;
+	top: 15%;
+	cursor: pointer;
+}
+
+.hamburger span {
+	
+	background: rgba(0, 0, 0, 0.6);
+	display: block;
+	height: 3px;
+	margin-bottom: 5px;
+	float: right;
+	width: 100%;
+}
+
+.hamburger span:nth-child(2) {
+	width: 75%;
+}
+
+.hamburger span:nth-child(3) {
+	width: 55%;
+}
+
+.hamburger:hover span {
+	float: left;
+}
+
+.header_title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 43px;
+	font-weight: 700;
+	margin-top: 216px;
+	color: #505050;
+	letter-spacing: 2.7px;
+	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+}
+
+.header_title span {
+	direction: inline-block;
+	background: rgba(118, 244, 234, 0.6);
+	line-height: 55px;
+	padding: 0 5px;
+}
+
+.hedear_btn {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.hedear_btn a {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 2.16px;
+	color: rgba(0, 0, 0, 0.6);
+	padding: 15px 42px;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+.hedear_btn a:hover {
+	background: #C8C8CA;
+	color: #fff;
+	box-shadow: 1px 1px 3px rgba(81, 81, 81, 0.8);
+	transition: 0.3s;
+}
+
+.hedear_btn a:active {
+	color:#C1C1C1;
+}
+
+.header_juice {
+	position: absolute;
+	top: 600px;
+	right: 8%;
+}
+
+.header_juice:hover {
+	filter: blur(1.5px);
+	transition: blur 0.8s;
+}
+
+/*About us*/
+
+.about {
+	background-color: #f8fafa;
+	height: 100vh;
+}
+
+.title {
+	text-align: center;
+	opacity: 0.9;
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 2.28px;
+	margin-top: 129px;
+}
+
+.title_description {
+	text-align: center;
+	opacity: 0.62;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 1.08px;
+	margin-top: 17px;
+}
+
+.about {
+	height: 985px;
+}
+
+.about_img {
+	display: inline-block;
+	width: 479px;
+	height: 483px;
+	/*margin-top: 147px;*/
+	margin-left: 22px;
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+}
+
+.about-img__slider1 {
+	display: block;
+	margin: 0 auto;
+}
+
+.about_img:before {
+	content: "";
+	position: absolute;
+	margin-top: 35px;
+	width: 479px;
+	height: 412px;
+	background-color: #eff0f2;
+	z-index: -1;
+}
+
+/*Slider's buttons*/
+
+.about__slider__btn {
+	text-align: center;
+	margin-top: 36px;
+}
+
+.about__slider__btn span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	background-color: #d0d0d0;
+}
+
+.about__slider__btn span:nth-child(2) {
+	background-color: #71f6eb;
+}
+
+/*Text right*/
+
+.about__text {
+	max-width: 454px;
+	max-height: 343px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 113px;
+	position: relative;
+}
+
+.about__text__title {
+	text-transform: uppercase;
+	color: #000000;
+	opacity: 0.75;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 25px;
+	letter-spacing: 1.2px;
+}
+
+.about__text__info {
+	color: #000000;
+	opacity: 0.74;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0.8px;
+	margin-top: 31px;
+}
+
+.about__text__title__second {
+	color: #000000;
+	opacity: 0.75;
+	font-family: Merriweather;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1.02px;
+	margin-top: 38px;
+}
+.about__text__info__second {
+	color: #000000;
+	opacity: 0.74;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0.8px;
+	margin-top: 31px;
+}
+
+.about_wrap {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 147px;
+}
