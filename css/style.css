@@ -38,7 +38,7 @@ p, h1, h2, h3, h4, h5, h6, img {
 /*Header*/
 
 .header {
-	height: 806px;
+	height: 100vh;
 	background-color: #eff0f2;
 }
 
