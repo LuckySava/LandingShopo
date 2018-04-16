@@ -671,7 +671,7 @@ ul.menu > li:hover > ul.submenu {
 /*What they says*/
 
 .says {
-	padding-bottom: 120px;
+	padding-bottom: 100px;
 }
 
 
@@ -911,7 +911,7 @@ ul.menu > li:hover > ul.submenu {
 
 /*Form__Address*/
 
-.contacts__addres {
+.contacts__addres:not(.maps) {
 	box-shadow: 0 0 3px rgba(21, 21, 21, 0.16);
 	background-color: #021623;
 	vertical-align: middle;
@@ -1055,4 +1055,35 @@ ul.menu > li:hover > ul.submenu {
 .social_btn a .envp:hover {
 	color: #00A6FF;
 	transition: 0.2s;
+}
+
+/*Contacts*/
+
+.partners__first {
+	text-align: center;
+}
+
+.partners__first img:not(.first__line__img) {
+
+	margin-top: 25px;
+
+}
+
+.partners__first img:not(.second__line__img) {
+	width: 10%;
+	margin-left: 69px;
+	
+}
+
+.partners__first img {
+	width: 10%; 	
+	opacity: 0.3;
+	filter: grayscale(100%);
+}
+
+.partners__first img:hover {
+	opacity: 1;
+ 	filter: grayscale(0);
+ 	transition: 0.3s;
+ 	width: 10.5%;
 }
