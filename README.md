@@ -1,7 +1,7 @@
 Hello.
 
-You can see my first landing page, created on my classes.
+You can see my second landing page, created on my classes.
 
-You can leave some comments if you want to help to improve my job :)
+If you have any ideas how to improve my code, just let me know )
 
-Good lucK!
+Thank you!
